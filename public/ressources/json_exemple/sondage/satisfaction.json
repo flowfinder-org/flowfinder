@@ -1,0 +1,26 @@
+[
+    {
+        "id_element": 1,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"1 - Quelle est votre satisfaction globale concernant l'utilisation de notre site ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"radio\",\"liste\":{\"Option-InputText\":\"Tr\\u00e8s insatisfait ; Insatisfait ; Moyennement satisfait ; Satisfait ; Tr\\u00e8s satisfait\"}}}"
+    },
+    {
+        "id_element": 2,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"2 - Recommanderiez-vous ce site \\u00e0 d'autres personnes ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"radio\",\"liste\":{\"Option-InputText\":\"Oui ; Non\"}}}"
+    },
+    {
+        "id_element": 3,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"separateur 1\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"seppage\"}}"
+    },
+    {
+        "id_element": 4,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"3 - Quels aspects du site vous ont le plus satisfait ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"textarea\",\"nbligne\":{\"Option-InputNumber\":\"4\"},\"nbmaxligne\":{\"Option-InputNumber\":\"150\"}}}"
+    },
+    {
+        "id_element": 5,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"separateur 2\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"seppage\"}}"
+    },
+    {
+        "id_element": 6,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"4 - Quels aspects du site vous ont le moins satisfait ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"textarea\",\"nbligne\":{\"Option-InputNumber\":\"4\"},\"nbmaxligne\":{\"Option-InputNumber\":\"150\"}}}"
+    }
+]

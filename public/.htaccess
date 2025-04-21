@@ -1,0 +1,8 @@
+# on démarre le moteur rééecriture
+RewriteEngine On
+
+#recuperer fichier sans passer par index.php
+RewriteRule ^(.*).(html|mp4|js|ico|gif|jpg|jpeg|svg|png|css|woff|woff2|map|xml|obj|svg|mp3|wav|aac|sbk|bds|oog|json|txt|ttf|pdf)$ - [L,END]
+
+# première réécriture d'URL
+RewriteRule ^(.*)$ index.php?p=$1 [L,END,B]

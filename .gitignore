@@ -1,0 +1,11 @@
+.vscode/
+
+/vendor/
+
+/_USERS_FILES_PRIVATE
+/public/_USERS_FILES
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

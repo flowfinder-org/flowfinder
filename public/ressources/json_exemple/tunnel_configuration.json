@@ -1,0 +1,6 @@
+{
+  "Visibilite-logo":{"Switch":1},
+  "nomsociete":{"InputText":"Ici le nom de société"},
+  "descriptionsociete":{"InputTextarea":"Ici une description de l'activité"},
+  "OrdreElements":{}
+}

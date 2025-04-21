@@ -1,0 +1,22 @@
+[
+    {
+        "id_element": 1,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"Avez-vous trouv\\u00e9 ce que vous cherchiez ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"radio\",\"liste\":{\"Option-InputText\":\"Oui ; Non\"}}}"
+    },
+    {
+        "id_element": 2,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"separteur 1\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"seppage\"}}"
+    },
+    {
+        "id_element": 3,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"Comment \\u00e9valueriez-vous la facilit\\u00e9 \\u00e0 trouver l\\u2019information (1 \\u00e0 5 \\u00e9toiles) ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"note\",\"maxnote\":{\"Option-InputNumber\":\"5\"}}}"
+    },
+    {
+        "id_element": 4,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"separateur 2\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"seppage\"}}"
+    },
+    {
+        "id_element": 5,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"Quelles informations aimeriez-vous trouver sur notre site ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"textarea\",\"nbligne\":{\"Option-InputNumber\":\"4\"},\"nbmaxligne\":{\"Option-InputNumber\":\"150\"}}}"
+    }
+]

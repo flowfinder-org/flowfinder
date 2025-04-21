@@ -1,0 +1,114 @@
+.semaine{
+    min-height: 210px;
+    width: 1500px;
+    border: 1px solid #CCC;
+    background-color: #EFEFEF;
+    margin-bottom: 6px;
+}
+.jour_semaine{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 210px;
+    max-width: 210px;
+    min-height: 180px;
+    border: 1px solid #EFEFEF;
+    background-color: #FFF;
+    margin-left: 4px;
+}
+
+.block_prospect{
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 0.5rem;
+    background-color: #444;
+    color: white;
+    min-width:65px;
+    max-width:65px;
+    min-height:20px;
+    overflow: hidden;
+    text-align: left;
+    direction: rtl;
+}
+
+.block_prospect_visite_courte{
+    background-color: #a26648;
+}
+
+.block_prospect_visite_longue{
+    background-color: #dc9977;
+}
+
+.block_prospect_inscrit{
+    background-color: #C5C6C6;
+}
+
+.block_prospect_profil{
+    background-color: #FFE361;
+}
+
+.block_prospect_discussion{
+    background-color: #EB9F04;
+}
+
+.block_prospect_choix_formule{
+    background-color: #06668C;
+}
+
+.block_prospect_page_paiement{
+    background-color: #A4BD01;
+}
+
+.block_prospect_a_paye{
+    background-color: #679436;
+}
+
+.ligne_stat{
+    font-size: 0.7rem;
+}
+
+.heure_du_jour{
+    border-bottom: 1px solid #CCC;
+}
+
+.heure_titre{
+    font-size: 7px;
+    line-height: 7px;
+    margin-top: 4px;
+}
+
+.ligne_heure_prospects{
+    min-height: 24px;
+}
+
+.ligne_heure_prospects .block_prospect{
+    font-size: 8px;
+    min-width: 40px;
+    max-width: 30px;
+    min-height: 8px;
+    max-height: 8px;
+    line-height: 8px;
+    overflow: hidden;
+    text-align: left;
+    direction: rtl;
+}
+
+.pins_click_relance_1, .pins_envoie_relance_1{
+    position: absolute;
+    width:10px;
+    height:10px;
+    top:0px;
+    left:0px;
+    line-height: 10px;
+    background-color: white;
+}
+
+.pins_click_relance_1
+{
+    color: green;
+}
+.pins_envoie_relance_1{
+    color: red;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id_element": 1,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"1 - Comment \\u00e9valueriez-vous la facilit\\u00e9 de navigation sur le site ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"radio\",\"liste\":{\"Option-InputText\":\"Tr\\u00e8s difficile ; Difficile ; Moyenne ; Facile ; Tr\\u00e8s facile\"}}}"
+    },
+    {
+        "id_element": 2,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"2 - Avez-vous trouv\\u00e9 rapidement ce que vous cherchiez ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"radio\",\"liste\":{\"Option-InputText\":\"oui ; non \"}}}"
+    },
+    {
+        "id_element": 3,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"separateur 1\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"seppage\"}}"
+    },
+    {
+        "id_element": 4,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"3 - Comment \\u00e9valueriez-vous la rapidit\\u00e9 du site ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"radio\",\"liste\":{\"Option-InputText\":\"Tr\\u00e8s lente ; Lente ; Moyenne ; Rapide ; Tr\\u00e8s rapide\"}}}"
+    },
+    {
+        "id_element": 5,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"4 - Avez-vous rencontr\\u00e9 des probl\\u00e8mes techniques pendant votre navigation ?\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"radio\",\"liste\":{\"Option-InputText\":\"oui ; non \"}}}"
+    },
+    {
+        "id_element": 6,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"separateur 2\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"seppage\"}}"
+    },
+    {
+        "id_element": 7,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"5 - Combien d\\u2019\\u00e9toiles sur 5 attribueriez-vous au design du site \"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"note\",\"maxnote\":{\"Option-InputNumber\":\"5\"}}}"
+    },
+    {
+        "id_element": 8,
+        "donnee_json_element": "{\"Title\":{\"InputText\":\"6 - Si vous avez des suggestions ou des commentaires suppl\\u00e9mentaires sur votre exp\\u00e9rience, nous serions ravis de les lire.\"},\"Active\":{\"Switch\":1},\"Choix\":{\"Select\":\"textarea\",\"nbligne\":{\"Option-InputNumber\":\"4\"},\"nbmaxligne\":{\"Option-InputNumber\":\"150\"}}}"
+    }
+]
