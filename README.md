@@ -24,6 +24,8 @@ Designed for both web developers and marketing teams, FlowFinder provides action
 
 ## Installation
 
+[Detailed Installation guide](./INSTALL.md)
+
 1. **Database**:  
    The database schema is provided in the file `/_database/db_schema.sql`. You can import it into your MariaDB or MySQL instance.
 
@@ -90,6 +92,11 @@ The free tier of the cloud version includes all the features of this open-source
 This option is ideal for quick testing or small-scale usage without needing to configure a backend environment.
 
 FlowFinder.org also offers professional Cloud versions and technical support services.
+
+## How to Contribute
+
+[See the contribution guide here](CONTRIBUTING.md).
+It contains information on the project's priorities
 
 ## License
 

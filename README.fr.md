@@ -24,6 +24,8 @@ Conçu à la fois pour les développeurs web et les équipes marketing, FlowFind
 
 ## Installation
 
+[Le guide d'installation détaillé est disponible en anglais ici](./INSTALL.md)
+
 1. **Base de données** :  
    Le schéma de la base de données se trouve dans le fichier `/_database/db_schema.sql`. Vous pouvez l’importer dans votre instance MariaDB ou MySQL.
 
