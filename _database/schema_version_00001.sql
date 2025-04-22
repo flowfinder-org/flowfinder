@@ -105,19 +105,19 @@ INSERT INTO theme(id_utilisateur, theme_page, theme_nom, theme_css, date_modific
 (0, 'feedback', 'default', 
 '{"page":{"backgroundColor":"#eeeeee"}}',
 '2025-01-01 00:00:01'
-)
+);
 
 INSERT INTO theme(id_utilisateur, theme_page, theme_nom, theme_css, date_modification) VALUES
 (0, 'formulaire', 'default', 
 '{"page":{"backgroundColor":"#eeeeee"}}',
 '2025-01-01 00:00:01'
-)
+);
 
 INSERT INTO theme(id_utilisateur, theme_page, theme_nom, theme_css, date_modification) VALUES
 (0, 'sondage', 'default', 
 '{"page":{"backgroundColor":"#eeeeee"}}',
 '2025-01-01 00:00:01'
-)
+);
 
 CREATE TABLE IF NOT EXISTS `visiteur_sessions` (
   `id_visiteur_session` INT(11) NOT NULL AUTO_INCREMENT,
