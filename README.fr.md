@@ -76,14 +76,17 @@ La documentation complète est en cours de rédaction. Cette section sera mise �
 
 Voici quelques captures d’écran pour vous donner un aperçu de l’application :
 
-![Capture 1](public/resources/img/screenshot1.png)  
-*Description de la première capture d’écran*
+![Capture 1](public/ressources/github_assets/flowfinder_feedback_creation.jpg)  
+*Création de sondages et formulaires de feedback facilitée avec un aperçu en direct du rendu, similaire à ce qui apparaîtra sur le site web cible.*
 
-![Capture 2](public/resources/img/screenshot2.png)  
-*Description de la deuxième capture d’écran*
+![Capture 2](public/ressources/github_assets/flowfinder_parametres_capture.jpg)  
+*Vous pouvez définir sur quelles pages les enregistrements seront effectués et où les sondages et feedbacks seront affichés, grâce à des expressions régulières simplifiées.*
 
-![Capture 3](public/resources/img/screenshot3.png)  
-*Description de la troisième capture d’écran*
+![Capture 3](public/ressources/github_assets/flowfinder_player.jpg)  
+*Le lecteur web permet de rejouer les sessions des utilisateurs visitant votre site, utile pour le débogage, l’analyse UX et les actions de CRO (optimisation du taux de conversion).*
+
+![Capture 4](public/ressources/github_assets/flowfinder_stats_visites.jpg)  
+*Les statistiques sont affichées en temps réel. Vous pouvez filtrer par balises UTM ou par tags, ce qui permet de repérer immédiatement certains événements (ex. : augmentation des vues après une campagne marketing, baisse de la durée des sessions suite à un problème technique...).*
 
 ## Tester la version hébergée
 

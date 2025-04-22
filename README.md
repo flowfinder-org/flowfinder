@@ -76,14 +76,17 @@ Full documentation is in progress. We will update this section once it is ready.
 
 Here are some screenshots to give you an overview of the application:
 
-![Screenshot 1](public/resources/img/screenshot1.png)  
-*Description of the first screenshot*
+![Screenshot 1](public/ressources/github_assets/flowfinder_feedback_creation.jpg)  
+*Creation af survey and feedback forms made easy with live preview of the rendering similar to what will appears on the destination website*
 
-![Screenshot 2](public/resources/img/screenshot2.png)  
-*Description of the second screenshot*
+![Screenshot 2](public/ressources/github_assets/flowfinder_parametres_capture.jpg)  
+*You can setup on which pages will be recorded and will display survey and feedbacks easily with simplified regexp*
 
-![Screenshot 3](public/resources/img/screenshot3.png)  
-*Description of the third screenshot*
+![Screenshot 3](public/ressources/github_assets/flowfinder_player.jpg)  
+*The web player permit to replay the sessions of the users visiting your web site so you can debug it or use it for UX analytics and CRO tasks*
+
+![Screenshot 3](public/ressources/github_assets/flowfinder_stats_visites.jpg)  
+*The stats are show realtime, you can filter by UTM tags and tags which permits to immediately sees when some specific events happens on your website, (eg: increase of views after a marketing campaign, decrease of sessions length due to a technical issue...)*
 
 ## Try the Hosted Version
 
