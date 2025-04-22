@@ -163,7 +163,7 @@ ADD COLUMN `screen_height` INT(11) NULL DEFAULT 0 AFTER `screen_width`,
 ADD COLUMN `window_width` INT(11) NULL DEFAULT 0 AFTER `screen_height`,
 ADD COLUMN `window_height` INT(11) NULL DEFAULT 0 AFTER `window_width`,
 ADD COLUMN `pixel_ratio` DECIMAL(6,2) NULL DEFAULT 1.00 AFTER `window_height`,
-ADD COLUMN `orientation` VARCHAR(10) NULL DEFAULT '' AFTER `pixel_ratio`
+ADD COLUMN `orientation` VARCHAR(10) NULL DEFAULT '' AFTER `pixel_ratio`,
 ADD COLUMN `is_ip_hashed` TINYINT NULL DEFAULT 0 AFTER `is_team`;
 
 CREATE TABLE IF NOT EXISTS `visiteur_sessions_formdonnees` (
