@@ -41,6 +41,7 @@ class ElementController extends Controller
     public function retourn_typePage($page)
     {
         //on va verifier à quel page il appartient
+        //a voir
         switch ($page) {
             case 'portail':
                 return 1;
