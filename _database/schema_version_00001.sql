@@ -156,6 +156,16 @@ ENGINE = InnoDB
 AUTO_INCREMENT = 0
 DEFAULT CHARACTER SET = utf8mb4;
 
+ALTER TABLE `visiteur_sessions` 
+ADD COLUMN `referer` VARCHAR(1024) NULL DEFAULT NULL AFTER `fbclid`,
+ADD COLUMN `screen_width` INT(11) NULL DEFAULT 0 AFTER `geo_timezone`,
+ADD COLUMN `screen_height` INT(11) NULL DEFAULT 0 AFTER `screen_width`,
+ADD COLUMN `window_width` INT(11) NULL DEFAULT 0 AFTER `screen_height`,
+ADD COLUMN `window_height` INT(11) NULL DEFAULT 0 AFTER `window_width`,
+ADD COLUMN `pixel_ratio` DECIMAL(6,2) NULL DEFAULT 1.00 AFTER `window_height`,
+ADD COLUMN `orientation` VARCHAR(10) NULL DEFAULT '' AFTER `pixel_ratio`
+ADD COLUMN `is_ip_hashed` TINYINT NULL DEFAULT 0 AFTER `is_team`;
+
 CREATE TABLE IF NOT EXISTS `visiteur_sessions_formdonnees` (
   `id_visiteur_session_formdonnee` INT(11) NOT NULL AUTO_INCREMENT,
   `id_visiteur_session` INT(11) NOT NULL,

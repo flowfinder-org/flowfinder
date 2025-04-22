@@ -37,6 +37,12 @@ class VisiteurSession extends Model
         return $this->requete("SELECT * FROM visiteur_sessions WHERE visiteur_session_uuid = ? AND sequence_index = ?", [$visiteur_session_uuid, $sequence_idx])->fetch();
     }
     
+    public function hashIPNotYetHashed()
+    {
+        // The salt is hardcoded intentionally, as the IP hash is used solely for anonymization purposes and not for security-critical operations.
+        $this->requete("UPDATE visiteur_sessions SET user_ip = SHA2(CONCAT('scrambling_salt', user_ip), 256), is_ip_hashed = 1 WHERE is_ip_hashed = 0;", [])->fetch();
+    }
+
     public function addVisiteurSession(int $id_visiteur, string $visiteur_session_uuid, int $visiteur_session_seq_idx, string $url, 
     string $user_agent, $os_family, $os_version, $device_type, $browser_family, $browser_version, $device_brand, $device_model,
     string $user_ip, 

@@ -141,7 +141,7 @@
                                 $ak->ecrit($url_short);
                                 ?>
                             </td>
-                            <td><?php $ak->ecrit($visiteur_session->user_ip); ?></td>
+                            <td><?php $ak->ecrit(substr($visiteur_session->user_ip, 0, 9) . "..."); ?></td>
                             <td><?php $ak->ecrit($visiteur_session->geo_country != null ? $visiteur_session->geo_country : ""); ?></td>
                             <td><?php $ak->ecrit($visiteur_session->geo_region != null ? $visiteur_session->geo_region : ""); ?></td>
                             <td><?php $ak->ecrit($visiteur_session->geo_city != null ? $visiteur_session->geo_city : ""); ?></td>

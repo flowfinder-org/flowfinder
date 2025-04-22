@@ -89,6 +89,11 @@ class GeoIpLocator
 
     private function getByMaxmind()
     {
+        if(!defined(MAXMIND_GEOIP_ACCOUND_ID) || MAXMIND_GEOIP_ACCOUND_ID == "")
+        {
+            return;
+        }
+
         $url = "https://geoip.maxmind.com/geoip/v2.1/city/{$this->ip}?pretty";
 
         // Initialise cURL

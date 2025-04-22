@@ -13,7 +13,11 @@ Conçu à la fois pour les développeurs web et les équipes marketing, FlowFind
 ## Avertissements importants
 
 - **Sécurité** : Le module d’authentification actuel est basique, avec un identifiant/mot de passe par défaut `admin/admin`. Ne l’installez pas en production ni ne le rendez accessible publiquement sans mettre en place une authentification plus sécurisée.
-- **Conformité RGPD** : Cette version n’est pas entièrement conforme au RGPD. En particulier, les adresses IP des utilisateurs sont stockées en clair sans hachage. D’autres éléments liés à la conformité sont encore en cours d’analyse. Utilisez cette version avec précaution et en conformité avec les lois locales sur la protection des données.
+- **Conformité RGPD** : Cette version est conforme au RGPD.  
+Les adresses IP des visiteurs sont temporairement stockées en clair afin d'en extraire la géolocalisation, puis elles sont **hachées avant toute première visualisation dans l'interface web**.
+Il est possible d'activer l'enregistrement des sessions web via RRWEB. Dans ce cas, **vous êtes responsable de configurer RRWEB correctement** afin qu’il **n’enregistre pas de données sensibles**.
+Vous pouvez activer ou désactiver l’enregistrement de certaines pages à l’aide d'expressions régulières, dans la section configuration.  
+Par défaut, **l’enregistrement des sessions est désactivé**.
 
 ## Prérequis
 
@@ -92,6 +96,11 @@ La version gratuite inclut toutes les fonctionnalités de cette version open-sou
 Cette option est idéale pour des tests rapides ou une utilisation à petite échelle sans configuration de serveur.
 
 FlowFinder.org propose également des versions Cloud professionnelles ainsi que des services d’assistance technique.
+
+## Comment contribuer
+
+[Voir le guide de contribution ici](CONTRIBUTING.fr.md).
+Il contient des informations sur les priorités du projet.
 
 ## Licence
 

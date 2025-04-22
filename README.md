@@ -13,7 +13,11 @@ Designed for both web developers and marketing teams, FlowFinder provides action
 ## Important Warnings
 
 - **Security**: The current authentication module is basic, with a default username/password set to `admin/admin`. Do not install it in production or make it publicly accessible without implementing more secure authentication.
-- **GDPR Compliance**: This version is not fully compliant with GDPR. In particular, user IP addresses are stored in plain text without hashing. Other elements related to compliance are still under review. Use this version with caution and in accordance with local data protection laws.
+- **GDPR Compliance**: This version is compliant with the GDPR.  
+Visitors IP addresses are temporarily stored in plain text for geolocation purposes, and are **hashed before being displayed for the first time in the web interface**.
+You can enable web session recording via RRWEB. In this case, **you are responsible for configuring RRWEB properly** to ensure that **no sensitive data is recorded**.
+It is possible to enable or disable recording for specific pages using regular expressions, in the configuration section.  
+By default, **session recording is disabled**.
 
 ## Prerequisites
 

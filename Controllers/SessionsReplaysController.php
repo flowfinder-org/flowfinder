@@ -45,6 +45,11 @@ class SessionsReplaysController extends Controller
         */
         GeoIpLocator::CalculGeoIpManquantes();
 
+        /*
+        * On hache les IP pour être compatible avec la RGPD
+        */
+        $visiteurSessionModel = new VisiteurSession();
+        $visiteurSessionModel->hashIPNotYetHashed();
 
         /*
         Préparation du filtrage
@@ -88,7 +93,6 @@ class SessionsReplaysController extends Controller
         /*
         On va afficher les sessions des visiteurs de la collection par défault dont cet utilisateur est propriétaire
         */
-        $visiteurSessionModel = new VisiteurSession();
         //$visiteursSessions = $visiteurSessionModel->getVisiteursSessionsPourUtilisateur($id_utilisateur, 0, 100);
         $visiteursSessions = $visiteurSessionModel->getVisiteursSessionsPourUtilisateurFiltre($id_utilisateur, $params["filtre_utm_campaign"], $params["filtre_date_start"] . " 00:00", $params["filtre_date_end"] . " 23:59:59");
 

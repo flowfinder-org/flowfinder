@@ -14,6 +14,7 @@ use FlowFinder\Models\FormDonnees;
 use FlowFinder\Models\VisiteurSessionFormDonnee;
 use FlowFinder\Models\VisiteurSessionEvent;
 use FlowFinder\Models\CollectionUtilisateur;
+use FlowFinder\Models\PageFormDonnees;
 
 /*
 * Point par lequel les sites de nos clients interagissent avec les collections
@@ -452,7 +453,7 @@ class WebApi extends Api
             $collectionsUtilisateur =  $collectionUtilisateurModel->getParIdCollection($collection->id_collection);
             $id_utilisateur_proprietaire = $collectionsUtilisateur[0]->id_utilisateur; // la requete renvoie par ordre de creation et le premier utilisateur lié a la collection en est le proprietaire
 
-            $evenement = new FormDonnees();
+            $evenement = new PageFormDonnees();
             $id_formdonnees = $evenement->insertion_donnees($id_utilisateur_proprietaire, $_POST["type_page"], $_POST["id_page_configuration"], $_POST["json_values"]); // le type est forcé sur 2 [tunnel] car cette methode n'est appelé que par les formulaires inséeré avec "insert_tunnel"
 
             $visiteurSessionFormdonneesModel = new VisiteurSessionFormDonnee();

@@ -38,4 +38,3 @@ Si vous souhaitez aider à l'une de ces tâches, faites-le nous savoir !
 ### 6. **Code de conduite**
 Veuillez être respectueux et attentif aux autres. Nous valorisons un environnement positif et inclusif pour tous les contributeurs.
 
-## Lien vers la version anglaise
