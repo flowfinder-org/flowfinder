@@ -235,24 +235,13 @@ class Helper
         //ma traduction
         $trad = "";
         //chemin de la vue default
-        $chemindefault = APP_ROOT . '/lang' . '/' . APP_LANG . '/';
+        $chemindefault = APP_ROOT . '/Lang' . '/' . APP_LANG . '/';
         
         $source_trad = $this->source_trad;
 
-        if ($source_trad == "")
-            $source_trad = $this->view;
-        $chem_default = $source_trad;
-        $chem_default = explode("/", $chem_default);
-        for ($i = 0; $i < count($chem_default) - 1; $i++) {
-            $chemindefault .= $chem_default[$i] . '/';
-        }
-        $chemindefault .= 'default.csv';
-        if (file_exists($chemindefault) && $trad == "") {
-            $trad = $this->tradcsv($chemindefault, $donnees);
-        }
         if ($source_trad==""){$source_trad="template";};
         //chemin de la source des traductions
-        $chemin = APP_ROOT . '/lang' . '/' . APP_LANG . '/' . $source_trad . '.csv';
+        $chemin = APP_ROOT . '/Lang' . '/' . APP_LANG . '/' . $source_trad . '.csv';
         //echo $chemin;
         if (file_exists($chemin) && $trad == "") {
             $trad = $this->tradcsv($chemin, $donnees);

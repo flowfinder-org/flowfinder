@@ -1,0 +1,14 @@
+# template_connected
+"MENU-SEDECONNECTER";"Se déconnecter"
+
+#template_default
+"TDBOTTOM-PAR";"par"
+"TDBOTTOM-TOUSDROITSRESERVES";"Tous droits réservés"
+"TDBOTTOM-CGV";"CGV"
+"TDBOTTOM-CGVLP"; "Conditions générales de vente"
+"TDBOTTOM-MENTIONSLEGALES"; "Mentions légales"
+
+"COOKIES-POLICYTITLE"; "Votre vie privée nous importe"
+"COOKIES-POLICYTEXT"; "Nous utilisons des cookies pour améliorer votre expérience sur notre site. Ces cookies nous permettent de mémoriser vos préférences et d’optimiser la navigation. Vous pouvez accepter ou refuser cette utilisation en cliquant sur l'un des boutons."
+"COOKIES-POLICYACCEPT"; "Accepter les cookies"
+"COOKIES-POLICYREFUSER"; "Refuser les cookies"

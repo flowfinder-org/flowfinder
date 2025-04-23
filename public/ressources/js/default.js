@@ -9,11 +9,7 @@ function getCurrentLangFromUrl() {
 
 
 const supportedLangs = {
-    'fr': { flag: '🇫🇷', label: 'Français' },
-    'en': { flag: '🇬🇧', label: 'English' },
-    'es': { flag: '🇪🇸', label: 'Español' },
-    'de': { flag: '🇩🇪', label: 'Deutsch' },
-    'it': { flag: '🇮🇹', label: 'Italiano' }
+    'fr': { flag: '🇫🇷', label: 'Français' }
 };
 
 function switchLanguageMenu() {
@@ -22,7 +18,6 @@ function switchLanguageMenu() {
     // Met à jour le bouton affichant la langue actuelle
     document.getElementById('current-lang').innerHTML = `
         <span class="d-inline-flex align-items-center">
-            <span style="font-size: 2rem; line-height: 1;">${supportedLangs[currentLang].flag}</span>
             <span class="ms-2 text-uppercase" style="font-size: 0.9rem;">${currentLang}</span>
         </span>
     `;
@@ -38,6 +33,14 @@ function switchLanguageMenu() {
                 <a class="dropdown-item lang-switch" data-lang="${lang}" href="#">
                     ${supportedLangs[lang].flag} ${supportedLangs[lang].label}
                 </a>
+            `;
+            langMenu.appendChild(item);
+        }
+        else
+        {
+            const item = document.createElement('li');
+            item.innerHTML = `
+                ${supportedLangs[lang].flag} ${supportedLangs[lang].label}
             `;
             langMenu.appendChild(item);
         }
