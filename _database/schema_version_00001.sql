@@ -166,6 +166,18 @@ ADD COLUMN `pixel_ratio` DECIMAL(6,2) NULL DEFAULT 1.00 AFTER `window_height`,
 ADD COLUMN `orientation` VARCHAR(10) NULL DEFAULT '' AFTER `pixel_ratio`,
 ADD COLUMN `is_ip_hashed` TINYINT NULL DEFAULT 0 AFTER `is_team`;
 
+CREATE TABLE IF NOT EXISTS `visiteur_sessions_events` (
+  `id_visiteur_sessions_events` int(11) NOT NULL AUTO_INCREMENT,
+  `id_visiteur_session` int(11) NOT NULL,
+  `id_collection` int(11) NOT NULL,
+  `event_name` varchar(32) NOT NULL,
+  `event_value` varchar(255) NOT NULL DEFAULT '',
+  `date_event` datetime NOT NULL,
+  PRIMARY KEY (`id_visiteur_sessions_events`))
+ENGINE=InnoDB
+AUTO_INCREMENT=0
+DEFAULT CHARACTER SET = utf8mb4;
+
 CREATE TABLE IF NOT EXISTS `visiteur_sessions_formdonnees` (
   `id_visiteur_session_formdonnee` INT(11) NOT NULL AUTO_INCREMENT,
   `id_visiteur_session` INT(11) NOT NULL,
