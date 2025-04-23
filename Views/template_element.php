@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title></title>
 
-  <link rel="shortcut icon" href="/<?= APP_LANG ?>/ressources/img/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="<?= $ak->asset("ressources/css/ak_bootstrap.css") ?>">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 

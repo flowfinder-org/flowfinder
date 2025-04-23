@@ -1,6 +1,6 @@
 class SortableList {
     constructor(containerId) {
-        this.lang = getCurrentLangFromUrl();
+        this.lang = "fr";
         this.container = document.getElementById(containerId);
         this.draggedItem = null;
         this.typepage = null;

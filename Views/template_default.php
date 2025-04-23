@@ -12,7 +12,7 @@
 
   <title>FlowFinder</title>
 
-  <link rel="shortcut icon" href="/<?= APP_LANG ?>/ressources/img/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="<?= $ak->asset("ressources/css/ak_bootstrap.css") ?>">
   <link rel="stylesheet" href="<?= $ak->asset("ressources/css/flowfinder-web.css") ?>">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -54,7 +54,7 @@
             </a>
           </div>
 
-          <a class="navbar-brand" href="/<?= APP_LANG ?>/"> <img src="/ressources/img/logo_flowfinder_icon_blanc.svg" alt="logo flowfinder" style="height: 2em"></a>
+          <a class="navbar-brand" href="/<?= APP_LANG ?>/"> <img src="/ressources/img/logo_flowfinder.svg" alt="logo flowfinder" style="height: 2em"></a>
           <div></div>
         </div>
       </nav>
@@ -68,31 +68,31 @@
       <div class="d-flex justify-content-center align-items-center">
 
         <p class="mt-2 text-white mb-0 d-block d-md-none">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder <?php $ak->traduit('TDBOTTOM-PAR'); ?> FlowFinder </a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/" class="text-white" target="_blank">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder <?php $ak->traduit('TDBOTTOM-PAR'); ?> FlowFinder </a>
         </p>
 
         <p class="mt-2 text-white mb-0 d-none d-md-block">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder <?php $ak->traduit('TDBOTTOM-PAR'); ?> FlowFinder — <?php $ak->traduit('TDBOTTOM-TOUSDROITSRESERVES'); ?> </a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/cgv" class="text-white" target="_blank">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder  — <?php $ak->traduit('TDBOTTOM-TOUSDROITSRESERVES'); ?> </a>
         </p>
 
         <p class="mt-2 text-white mb-0">&nbsp;|&nbsp;</p>
 
         <p class="mt-2 text-white mb-0 d-block d-md-none">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white"><?php $ak->traduit('TDBOTTOM-CGV'); ?></a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/cgv" class="text-white" target="_blank"><?php $ak->traduit('TDBOTTOM-CGV'); ?></a>
         </p>
 
         <p class="mt-2 text-white mb-0 d-none d-md-block">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white"><?php $ak->traduit('TDBOTTOM-CGVLP'); ?></a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/cgv" class="text-white" target="_blank"><?php $ak->traduit('TDBOTTOM-CGVLP'); ?></a>
         </p>
 
         <p class="mt-2 text-white mb-0">&nbsp;|&nbsp;</p>
 
         <p class="mt-2 text-white mb-0 d-block d-md-none">
-          <a href="/<?= APP_LANG ?>/page/mentionslegales" class="text-white"><?php $ak->traduit('TDBOTTOM-MENTIONSLEGALES'); ?></a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/mentionslegales" class="text-white" target="_blank"><?php $ak->traduit('TDBOTTOM-MENTIONSLEGALES'); ?></a>
         </p>
 
         <p class="mt-2 text-white mb-0 d-none d-md-block">
-          <a href="/<?= APP_LANG ?>/page/mentionslegales" class="text-white"><?php $ak->traduit('TDBOTTOM-MENTIONSLEGALES'); ?></a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/mentionslegales" class="text-white" target="_blank"><?php $ak->traduit('TDBOTTOM-MENTIONSLEGALES'); ?></a>
         </p>
 
       </div>

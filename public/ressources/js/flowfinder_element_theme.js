@@ -1,6 +1,6 @@
 class ThemeManager {
     constructor(themePageType) {
-        this.lang = getCurrentLangFromUrl();
+        this.lang = "fr";
         this.contentPagePreview = document.getElementById('flowfinder-content-page');
         // Charger des thèmes spécifiques
         if (document.getElementById('loadDefaultTheme')) {

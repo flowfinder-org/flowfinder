@@ -8,7 +8,7 @@
   <meta name="robots" content="noindex, follow">
   <title>FlowFinder</title>
 
-  <link rel="shortcut icon" href="/<?= APP_LANG ?>/ressources/img/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="<?= $ak->asset("ressources/css/ak_bootstrap.css") ?>">
   <link rel="stylesheet" href="<?= $ak->asset("ressources/css/flowfinder-web.css") ?>">
 
@@ -72,28 +72,12 @@
               </a>
             <?php } ?>
 
-            <a class="navbar-brand" href="/<?= APP_LANG ?>/page/"><img src="/ressources/img/logo_flowfinder_blanc.svg" style="height: 2em" alt="flowfinder"></a>
+            <a class="navbar-brand" href="/<?= APP_LANG ?>/page/"><img src="/ressources/img/logo_flowfinder.svg" style="height: 2em" alt="flowfinder"></a>
 
             <div class="d-flex align-items-center">
               <a class="nav-div btn btn-inv btn-primary btn-sm me-2" href="/<?= APP_LANG ?>/accueil/logout" aria-selected="false">
                 <?php $ak->traduit('MENU-SEDECONNECTER'); ?>
               </a>
-
-              <ul class="navbar-nav mb-lg-0 ">
-                <li class="nav-item m-0">
-                  <ul class="navbar-nav me-auto mb-lg-0">
-                    <li class="nav-item dropdown m-0">
-                      <a class="nav-link fw-bold" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span id="current-lang">🌐</span> <!-- Drapeau dynamique -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16" style="vertical-align: inherit;">
-                          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                        </svg>
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-end" id="lang-menu" aria-labelledby="langDropdown"></ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
 
           </div>
@@ -101,11 +85,6 @@
       </nav>
     </header>
   </div>
-
-  <script>
-    switchLanguageMenu();
-  </script>
-
 
   <div class="d-flex d-md-none">
     <header>
@@ -138,7 +117,7 @@
             </button>
           </div>
 
-          <a class="navbar-brand" href="/<?= APP_LANG ?>/"> <img src="/ressources/img/logo_flowfinder_icon_blanc.svg" style="height: 2em"></a>
+          <a class="navbar-brand" href="/<?= APP_LANG ?>/"> <img src="/ressources/img/logo_flowfinder.svg" style="height: 2em"></a>
 
           <div>
             <a class="nav-div btn btn-inv btn-primary btn-sm me-2" href="/<?= APP_LANG ?>/accueil/logout" aria-selected="false">
@@ -186,35 +165,36 @@
       <div class="d-flex justify-content-center align-items-center">
 
         <p class="mt-2 text-white mb-0 d-block d-md-none">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder </a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/" class="text-white" target="_blank">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder <?php $ak->traduit('TDBOTTOM-PAR');?> FlowFinder </a>
         </p>
 
         <p class="mt-2 text-white mb-0 d-none d-md-block">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder — Tous droits réservés </a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/cgv" class="text-white" target="_blank">&copy; <?php $ak->ecrit(date("Y")) ?> - <?php $ak->ecrit(date("Y") + 1) ?>&nbsp; FlowFinder  — <?php $ak->traduit('TDBOTTOM-TOUSDROITSRESERVES'); ?> </a>
         </p>
 
         <p class="mt-2 text-white mb-0">&nbsp;|&nbsp;</p>
 
         <p class="mt-2 text-white mb-0 d-block d-md-none">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white">CGV</a>
+          <a href="<?= APP_LANG ?>/page/cgv" class="text-white"><?php $ak->traduit('TDBOTTOM-CGV'); ?></a>
         </p>
 
         <p class="mt-2 text-white mb-0 d-none d-md-block">
-          <a href="/<?= APP_LANG ?>/page/cgv" class="text-white">Conditions générales de vente</a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/cgv" class="text-white" target="_blank"><?php $ak->traduit('TDBOTTOM-CGVLP'); ?></a>
         </p>
 
         <p class="mt-2 text-white mb-0">&nbsp;|&nbsp;</p>
 
         <p class="mt-2 text-white mb-0 d-block d-md-none">
-          <a href="/<?= APP_LANG ?>/page/mentionslegales" class="text-white">Mentions légales</a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/mentionslegales" class="text-white" target="_blank"><?php $ak->traduit('TDBOTTOM-MENTIONSLEGALES'); ?></a>
         </p>
 
         <p class="mt-2 text-white mb-0 d-none d-md-block">
-          <a href="/<?= APP_LANG ?>/page/mentionslegales" class="text-white">Mentions légales</a>
+          <a href="https://flowfinder.org/<?= APP_LANG ?>/page/mentionslegales" class="text-white" target="_blank"><?php $ak->traduit('TDBOTTOM-MENTIONSLEGALES'); ?></a>
         </p>
 
       </div>
     </footer>
+  </div>
   </div>
 
 </body>

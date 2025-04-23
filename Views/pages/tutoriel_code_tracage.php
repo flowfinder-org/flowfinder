@@ -18,7 +18,7 @@
                     </div>
                 </div>
 
-                <a href="/<?= APP_LANG ?>/page/doc/installation" class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill mb-2 ">
+                <a href="https://flowfinder.org/<?= APP_LANG ?>/page/doc/installation" class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill mb-2 " target="_blank">
                     <span class="me-2">Accéder à la documentation d'installation </span>
                 </a>
 
