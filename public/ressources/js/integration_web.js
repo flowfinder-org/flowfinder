@@ -377,7 +377,8 @@ class FlowFinderGenerateurFormulaires {
                 if (form_info["inject_into_elem_id"] != null && form_info["inject_into_elem_id"] != "") {
                     containeurElem = document.getElementById(form_info["inject_into_elem_id"]);
                     if (containeurElem == null) {
-                        console.log("Cannot detect the target element with id " + form_info["inject_into_elem_id"] + " for FlowFinder form injection. Will inject in document.body.");
+                        console.log("Cannot detect the target element with id " + form_info["inject_into_elem_id"] + " for FlowFinder form injection.");
+                        return;
                     }
                 }
 
